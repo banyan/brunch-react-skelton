@@ -1,6 +1,5 @@
 .DS_Store
 npm-debug.log
-/.vagrant
-/_public
+/public
 /node_modules
 /bower_components
