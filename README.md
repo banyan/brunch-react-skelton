@@ -9,23 +9,17 @@ A Brunch skeleton for React.
 * Auto-reload on save
 * Brunch for building
 * Bower for front component management
-* Mocha testing
+* Testing by Jest
 
 ## Installation
 
 ```
-brunch new gh:banyan/brunch-react-skelton
+brunch new gh:banyan/brunch-react-skelton NEWAPP && cd NEWAPP
 npm i
 bower i
 ```
 
 ## Usage
-
-### Run
-
-```
-brunch watch --server
-```
 
 ### Build
 
@@ -34,18 +28,22 @@ brunch build
 brunch build --production
 ```
 
+### Run
+
+```
+brunch watch --server
+```
+
 ### Test
 
-Add test target file name at `test/initialize.coffee`
-
 ```
-mocha-phantomjs public/test/index.html # or npm test (you need to build once before test)
+npm test
 ```
 
-# Credit
+## Credit
 
 This is based on [warrenseine/brunch-react-less](https://github.com/warrenseine/brunch-react-less). Thanks.
 
-# Contribute
+## Contribute
 
 `brunch-react-skelton` is MIT-licensed. Feel free to contribute.
